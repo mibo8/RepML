@@ -28,7 +28,7 @@ Each script in src/scripts allows to replicate the experiments.
 WARNING: Remember to set Neptune logger token or comment logger lines in the script if you don't want to log results. Remember to set the huggingface token if you want to save the trained model (save=True in the config files)
 To replicate results leave default seed in config files.
 
-Scipts:
+Scripts:
 * bert_cls_train.py (Chapter 3): train and test of BERT for discursive repertories classification.
 * bert_cls_seg.py (Chapter 4): train and test of BERT for text segmentation as a supervised task.
 * pipeline.py (Chapter 5): test of the entire pipeline for dicursive repertoires prediciton (from text to a sequnence of DR).
